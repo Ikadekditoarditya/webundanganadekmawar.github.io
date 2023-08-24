@@ -7,6 +7,7 @@
 body{
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
+    background: rgba(28, 27, 27, 0.886);
 }
 .hero::before{
     content: '';
@@ -17,9 +18,9 @@ body{
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url(img/bg.jpg);
+    background-image: url(img/background.png);
     z-index: -1;
-    filter: blur(2px);
+    filter: blur();
 }
 .hero h1,
 .hero h4,
@@ -50,7 +51,6 @@ body{
     background-color: black;
     color: white;
 }
-
 /* media query */
 /* leptop */
 @media (max-width:992px){
